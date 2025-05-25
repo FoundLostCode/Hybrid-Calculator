@@ -317,7 +317,7 @@ fn scalpr_two_vec(){
         zahlen_scale.clear();
     }
     //
-    eprintln!("Geben Sie die Zahlen des zweiten Vectors ein:\n");
+    println!("Geben Sie die Zahlen des zweiten Vectors ein:\n");
     for _ in 0..dimension_fest{
         println!("Zahl bitte:\n");
         io::stdin().read_line(&mut zahlen_scale).expect("Fehler bei Eingabe");
