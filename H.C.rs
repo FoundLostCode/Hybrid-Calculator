@@ -396,22 +396,7 @@ fn star(){
             15=>{series()}
             16=>{fibo()}
             _ => {
-                let skull = r#"
-         ______
-      .-'      `-.
-     /            \
-    |              |
-    |,  .-.  .-.  ,|
-    | )(_o/  \o_)( |
-    |/     /\     \|
-    (_     ^^     _)
-     \__|IIIIII|__/
-      | \IIIIII/ |
-      \          /
-       `--------`
-        "#;
-                println!("{}", skull);
-                //io::stdin().read_line(&mut pause).unwrap();
+               println!("Action not found!");
             }
         }
     }
